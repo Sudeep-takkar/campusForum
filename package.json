@@ -1,27 +1,20 @@
 {
-  "name": "reforum",
+  "name": "myCampusForum",
   "version": "1.0.0",
-  "description": "A forum application built with ReactJS, Redux, Express and MongoDB",
-  "author": "Provash Shoumma",
+  "description": "A forum for international students",
+  "author": "Sudeep Takkar",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shoumma/ReForum/issues"
-  },
-  "homepage": "https://github.com/shoumma/ReForum#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shoumma/ReForum.git"
-  },
   "keywords": [
     "forum",
     "react",
     "redux",
     "express",
-    "mongodb"
+    "mongodb",
+    "heroku"
   ],
   "main": "server.js",
   "engines": {
-    "node": "7.1.0"
+    "node": "10.x"
   },
   "scripts": {
     "test": "jest",
