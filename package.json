@@ -14,13 +14,15 @@
   ],
   "main": "server.js",
   "engines": {
-    "node": "10.x"
+    "node": "10.x",
+    "npm": "6.x"
   },
   "scripts": {
     "test": "jest",
     "start": "better-npm-run start",
     "start:dev": "better-npm-run start:dev",
-    "build": "webpack --config config/webpack.prod.config.js"
+    "build": "webpack --config config/webpack.prod.config.js",
+    "heroku-postbuild": "webpack --config config/webpack.prod.config.js --prod"
   },
   "betterScripts": {
     "start": {
